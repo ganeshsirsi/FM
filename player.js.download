@@ -1,0 +1,3 @@
+list.onclick=function(e){var elm=e.target;document.addEventListener("click",handleTicClick);s
+function handleTicClick(event){const whatGotClicked=event.target;if(whatGotClicked.classList.contains("play_pouse")){console.log(`Hey, somebody clicked on button #${whatGotClicked.id}!`);var poster_img=document.getElementById('player_poster');poster_img.src=elm.getAttribute('image');var x=document.getElementById('radio_name');x.innerHTML=elm.getAttribute('title');}
+else{}}};
