@@ -127,6 +127,20 @@ function PlayerjsAsync2(t){ player2 = new Playerjs({id:"player2"}); player2.api(
     </div>
 
   <br/>
+    <script> let pur500= "https://stream.radiojar.com/g6dgm6m6p3hvv"
+    function PlayerjsAsync500(t){ player500 = new Playerjs({id:"player500"}); player500.api(t,pur500); } </script>
+    
+    <div onclick="PlayerjsAsync500('play')">Grimit Radio</div>
+    <div onclick="PlayerjsAsync500('stop')">Grimit Radio Puase</div>
+        <div id="player500">
+            <pjsdiv id="oframeplayer">
+                </style><iframe id="pjsfrrsplayer" scrolling="no" title="pjsfrrsplayer" allowfullscreen="true"
+                    allowtransparency="true" allow-scripts="true"
+                    style="position: absolute; width: 100%; height: 100%; border: 0px; pointer-events: none;"
+                    src="./saved_resource.html"></iframe>
+            </pjsdiv>
+        </div>
+    </div>
     <br/>
 <script> let pur6= "https://listen.openstream.co/4428/audio"
     //let pur6= "https://stream.zeno.fm/r2gn1pgm4qruv"
